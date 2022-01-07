@@ -1,0 +1,145 @@
+html {
+    background-color: black;
+    background-image: url(images/IMG_2565.JPG);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    color: black;
+} 
+
+.main {
+    width: auto;
+    margin: 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+head {
+    background-color: black;
+}
+
+header {
+    position: static;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc(100% / 2 - 80px);
+    margin: 20px 25px;
+    background-color: rgb(120, 120, 120, 0.8);
+    border: 1px outset black;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 10px 10px;
+}
+
+
+nav a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: rgb(120, 120, 120)
+}
+
+section {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+section article {
+    box-sizing: border-box;
+    flex-basis: auto;
+    background-color: rgb(120, 120, 120, 0.8);
+    width: calc(100% / 2 - 20px);
+    border: 1px outset black;
+    margin: 15px;
+    box-shadow: 10px 10px;
+}
+
+h1 {
+    width: 100%;
+    margin: auto;
+    font-variant: small-caps;
+    color : rgb(120, 120, 120);
+    background-color: black;
+    font-size-adjust: auto;
+}
+
+h3 {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+p {
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+.photo {
+    width: calc(45% - 30px);
+    background-color: rgb(255, 255, 255);
+}
+
+.photo2 {
+    width: calc(45% - 30px);
+    background-color: rgb(255, 255, 255);
+}
+
+.presentation {
+    width: calc(55% - 30px);
+}
+
+.projet {
+    width: calc(55% - 30px);
+}
+
+.images {
+    margin-left: 120px;
+}
+
+img {
+    display: inline-block;
+    box-sizing: border-box;
+    align-items:flex-start;
+}
+
+.extraits article {
+    width: calc(100% / 3 - 30px);
+    margin: 10px;
+    box-shadow: 10px 10px;
+}
+
+.feu {
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.presentation .img {
+    margin-left: 20px;    
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+footer p {
+    text-align: center;
+}
